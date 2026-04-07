@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    padding: 120px 20px;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #ff4d00;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* SERVICES */
+.services {
+    padding: 60px 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 20px;
+    background: #eee;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    padding: 60px 20px;
+}
+
+.testimonial {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 60px 20px;
+    background: #ddd;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #ff4d00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
